@@ -1,0 +1,387 @@
+.html, body {
+  padding: 0;
+  margin: 0; }
+
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(8, 3, 3, 0.623);
+  padding: .6rem 7rem; }
+  @media only screen and (max-width: 690px) {
+    .nav {
+      flex-direction: column; } }
+  .nav__list {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+  .nav__item {
+    margin: 0rem .7rem;
+    padding: 0rem .7rem; }
+  .nav__link {
+    text-decoration: none;
+    color: grey; }
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%; }
+
+.header__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem 0; }
+  @media only screen and (max-width: 690px) {
+    .header__box {
+      flex-direction: column;
+      padding: 2rem 0; } }
+
+.header__icons {
+  color: honeydew;
+  font-size: 2rem;
+  margin-right: 1rem; }
+
+.header__form input {
+  border: none;
+  border-radius: 10px;
+  padding: .8rem 2rem; }
+
+@media only screen and (max-width: 690px) {
+  .header__form {
+    margin: 1rem 0; } }
+
+.header__buttons a {
+  text-decoration: none;
+  margin-right: .7rem;
+  font-size: 1.3rem; }
+
+.header {
+  background-image: linear-gradient(rgba(0, 128, 128, 0.568), rgba(0, 128, 128, 0.603)), url(../../../images/brown-shopping-bags-5956.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .header__hero--content {
+    width: 50%;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__title {
+    font-size: 3rem;
+    color: whitesmoke; }
+    @media only screen and (max-width: 690px) {
+      .header__title {
+        margin: 6rem 0 0 0;
+        font-size: 2rem; } }
+  .header__desc {
+    font-size: 1.8rem;
+    color: whitesmoke;
+    margin-bottom: 2.2rem; }
+  .header__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: teal;
+    background: white;
+    padding: 0.7rem 1rem;
+    border-radius: 10px; }
+  .header__botton {
+    padding: .7rem 1rem;
+    border-radius: 10px; }
+  .header__border {
+    border: 1px solid white; }
+  .header__solid {
+    background-color: white; }
+
+.about {
+  width: 80%;
+  margin: -4rem auto 0 auto;
+  padding: 4rem 1rem;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgba(0, 128, 128, 0.63);
+  border-radius: 15px; }
+  .about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    @media only screen and (max-width: 690px) {
+      .about__content {
+        flex-direction: column; } }
+  .about__img {
+    width: 9rem;
+    height: 9rem; }
+    @media only screen and (max-width: 690px) {
+      .about__img {
+        margin-bottom: 2rem; } }
+
+.categories {
+  padding: 8rem 2rem;
+  border-top: 1px solid whitesmoke; }
+  @media only screen and (max-width: 690px) {
+    .categories {
+      display: flex;
+      flex-direction: column; } }
+  .categories__left {
+    width: 75%;
+    margin-right: 2rem; }
+    @media only screen and (max-width: 690px) {
+      .categories__left {
+        width: 100%; } }
+    .categories__left--top {
+      height: 50%;
+      width: 100%;
+      justify-content: space-between; }
+      @media only screen and (max-width: 690px) {
+        .categories__left--top {
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto; } }
+    .categories__left--bot {
+      height: 50%;
+      padding: 1rem 1.2rem; }
+  .categories__right {
+    width: 25%;
+    height: 100%; }
+    @media only screen and (max-width: 690px) {
+      .categories__right {
+        width: 100%; } }
+
+.category {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem; }
+  .category__row {
+    width: 30%; }
+    @media only screen and (max-width: 690px) {
+      .category__row {
+        width: 100%; } }
+  .category__col {
+    width: 100%;
+    padding: 3rem 0; }
+  .category__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black; }
+  .category__img--img {
+    width: 100%;
+    height: 100%;
+    opacity: .3; }
+  .category__text {
+    z-index: 1000;
+    position: relative;
+    padding: .5rem 1rem 1rem 1rem;
+    text-align: center; }
+  .category__title {
+    color: orangered; }
+  .category__desc {
+    color: white; }
+  .category__rating {
+    margin-bottom: 1.5rem; }
+  .category__icon {
+    color: orange; }
+  .category__link {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: .6rem 1rem; }
+
+.row {
+  display: flex; }
+
+.img-bot {
+  width: 30%;
+  height: 100%;
+  margin-right: 2rem; }
+
+.category__content--text {
+  width: 60%; }
+
+.opacity {
+  opacity: .6; }
+
+.history {
+  padding: 1.5rem 2rem 1rem 0; }
+  .history__img {
+    background-image: url(/images/amy-hirschi-uwpo02K55zw-unsplash.jpg);
+    width: 50%;
+    margin-right: 2rem;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    background-attachment: fixed;
+    background-size: contain; }
+  .history__text {
+    width: 50%; }
+  .history__title {
+    font-size: 2rem;
+    margin-top: 0rem; }
+  .history__desc {
+    font-weight: 1.2rem;
+    line-height: 1.2rem;
+    color: orange;
+    padding: .3rem 0rem;
+    margin-bottom: 2rem; }
+  .history__link {
+    padding: .8rem 1rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562); }
+
+.reviews {
+  padding: 8rem 4rem; }
+  .reviews__content {
+    display: flex;
+    flex-wrap: wrap; }
+    @media only screen and (max-width: 690px) {
+      .reviews__content {
+        flex-direction: column; } }
+
+.review {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  width: 48%;
+  padding: .7rem 1rem;
+  margin: .5rem;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 690px) {
+    .review {
+      width: 100%; } }
+  .review__user {
+    display: flex;
+    align-items: center; }
+  .review__logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: .5rem; }
+  .review__title {
+    margin: 0 0 .4rem 0;
+    color: grey;
+    font-weight: 200;
+    font-size: 1.3rem; }
+  .review__location {
+    margin: 0; }
+  .review__icon {
+    color: orange;
+    font-size: 1.2rem; }
+  .review__text {
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 1.6rem; }
+
+.products {
+  padding: 5rem 2rem;
+  background-image: linear-gradient(rgba(128, 128, 128, 0.39), rgba(128, 128, 128, 0.493)), url(/images/woman-leaning-on-wall-carry-camouflage-backpack-1346187.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .products__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    @media only screen and (max-width: 690px) {
+      .products__content {
+        flex-direction: column;
+        align-items: center; } }
+
+.product {
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.678);
+  width: 25%; }
+  @media only screen and (max-width: 690px) {
+    .product {
+      width: 90%;
+      margin: 1rem 0; } }
+  .product__img--container {
+    height: 16rem;
+    background-color: gray; }
+  .product__img {
+    width: 100%;
+    height: 100%; }
+  .product__img:hover {
+    opacity: .8; }
+  .product__text {
+    padding: 1rem;
+    background-color: white; }
+  .product__title {
+    color: grey;
+    margin: 0; }
+  .product__author {
+    font-size: 1rem;
+    margin-top: .4rem; }
+  .product__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .product__price {
+    font-weight: bold; }
+  .product__icon {
+    color: #ffa600; }
+
+.subscribe {
+  background-color: whitesmoke;
+  padding: 8rem 0; }
+  .subscribe__content {
+    width: 70%;
+    background-color: #8f8f8f;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    border-radius: 5px; }
+  .subscribe__form {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.596);
+    border-radius: 5px; }
+  .subscribe__title {
+    font-size: 2rem;
+    color: cadetblue;
+    text-align: center; }
+  .subscribe__mail {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%; }
+  .subscribe__input {
+    margin-bottom: 1.2rem;
+    padding: .8rem 1rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+    border: none;
+    border-radius: 5px;
+    text-align: center; }
+  .subscribe__btn {
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    padding: .7rem 1rem;
+    width: 10rem;
+    margin: 0 auto;
+    color: cadetblue; }
+
+.footer {
+  background-color: orange; }
+  .footer__nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 5rem; }
+    @media only screen and (max-width: 690px) {
+      .footer__nav {
+        flex-direction: column;
+        align-items: center; } }
+  .footer__item {
+    padding: .5rem 0;
+    list-style: none; }
+  .footer__link {
+    text-decoration: none;
+    color: whitesmoke; }

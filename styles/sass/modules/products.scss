@@ -1,0 +1,69 @@
+.products{
+padding: 5rem 2rem;
+
+background-image: linear-gradient(rgba(128, 128, 128, 0.39) , rgba(128, 128, 128, 0.493)) , url(/images/woman-leaning-on-wall-carry-camouflage-backpack-1346187.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @include phone {
+            flex-direction: column;
+            align-items: center;
+    }
+    }
+}
+.product{
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.678);
+    width: 25%;
+    @include phone {
+        width: 90%;
+        margin: 1rem 0;
+            }
+
+    &__img--container{
+        
+        height: 16rem;
+        background-color: gray;
+
+    }
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    &__img:hover{
+        opacity: .8;
+    
+    
+        
+    }
+    &__text{
+       
+        padding: 1rem ;
+        background-color: white;
+        
+    }
+    &__title{
+        color: grey;
+        margin: 0;
+    }
+    &__author{
+        font-size: 1rem;
+        margin-top: .4rem;
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__price{
+        font-weight: bold;
+    }
+    &__icon{
+        color: rgb(255, 166, 0);
+    }
+}

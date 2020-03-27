@@ -1,0 +1,51 @@
+.header{
+background-image: linear-gradient(rgba(0, 128, 128, 0.568) ,rgba(0, 128, 128, 0.603)) , url(../../../images/brown-shopping-bags-5956.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+&__hero--content{
+    width: 50%;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+&__title{
+    font-size: 3rem;
+    color: whitesmoke;
+    @include phone {
+        margin: 6rem 0 0 0 ;
+        font-size: 2rem;
+}
+}
+&__desc{
+    font-size: 1.8rem;
+    color:whitesmoke;
+    margin-bottom: 2.2rem;
+}
+&__link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: teal;
+    background: white;
+    padding: 0.7rem 1rem ;
+    border-radius: 10px;
+}
+&__botton{
+    padding: .7rem 1rem;
+    border-radius: 10px;
+}
+&__border{
+    border: 1px solid white;
+}
+
+&__solid{
+    background-color: white;
+
+}
+
+}

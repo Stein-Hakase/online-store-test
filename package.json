@@ -1,0 +1,21 @@
+{
+  "name": "online--store-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node-sass styles/sass/style.scss styles/style.css -w" ,
+    "postcss": "postcss styles/style.css -u postcss-prefixer -o styles/output.css"
+
+  },
+  "author": "Fakhrddine hariz",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.0",
+    "postcss-prefix-selector": "^1.7.2",
+    "postcss-prefixer": "^2.1.2"
+  }
+}
