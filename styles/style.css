@@ -59,7 +59,7 @@
   font-size: 1.3rem; }
 
 .header {
-  background-image: linear-gradient(rgba(0, 128, 128, 0.568), rgba(0, 128, 128, 0.603)), url(../images/brown-shopping-bags-5956.jpg);
+  background-image: linear-gradient(rgba(0, 128, 128, 0.568), rgba(0, 128, 128, 0.603)), url(./../images/brown-shopping-bags-5956.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
